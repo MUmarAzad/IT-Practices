@@ -19,7 +19,6 @@ view_tasks()
 remove_task("Buy groceries")
 view_tasks()
 
-
 #--------------------------Find Maximum and Minimum Values---------------------
 
 def find_max_min(lst):
@@ -36,7 +35,6 @@ numbers = [3, 9, 2, 8, 1]
 max_val, min_val = find_max_min(numbers)
 print(f"Max: {max_val}, Min: {min_val}")
 
-
 #--------------------------Phonebook---------------------
 
 phonebook = {}
@@ -51,7 +49,6 @@ add_contact("Alice", "1234567890")
 add_contact("Bob", "9876543210")
 print(get_number("Alice"))
 print(get_number("Charlie"))
-
 
 #--------------------------Inventory System---------------------
 
@@ -79,7 +76,6 @@ add_item("Apple", 10)
 add_item("Banana", 5)
 remove_item("Apple", 3)
 view_inventory()
-
 
 #--------------------------ATM System---------------------
 
